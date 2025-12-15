@@ -18,7 +18,7 @@ pipeline {
             }
         }
 
-        stage("Deploy to Container") {
+        stage("Deploy  Container") {
             steps {
                 script {
                     deploy adapters: [tomcat9(
