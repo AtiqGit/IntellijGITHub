@@ -11,7 +11,7 @@
 	<groupId>com.javatechie</groupId>
 	<artifactId>spring-data-redis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>spring-data-redis</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -86,7 +86,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>springDataRedis</finalName>
+		<finalName>springDataRedis-docker</finalName>
 	</build>
 
 
